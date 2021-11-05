@@ -1,0 +1,45 @@
+<html>
+    <style>
+        input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0; 
+        }  
+
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+
+        .login{
+            height: 50%;
+            width: 20%;
+            border-radius:10%;
+            background-color: lightblue;
+            padding: 5%; 
+        }
+
+        .questions{
+            height: 50%;
+            width: 20%;
+            left:30%;
+            top:-40%;
+            position:relative;
+        }
+
+    </style>
+    <body>
+
+        <div class = "login">
+            <p>Check Status</p>
+            <input type = "number" placeholder = "Ticket Number" id = "login"></input>
+           <button >login</button> 
+        </div>
+
+        <div class = "questions" id = "FAQ">
+            <h1>Frequently Asked Questions</h1>
+            <p> Question </p>
+            <p> Answer</p>
+        </div>
+        
+
+    </body>
+</html>
